@@ -24,19 +24,24 @@ const Porfolio = (props) => {
         <div className="portfolio-logo_ctn"> </div>
       </div>
       <div className="portfolio-item-two">
-        <a href="http://property--analyser.herokuapp.com/">
+        <a
+          className="portfolio__link-two"
+          href="https://github.com/MarkMarley-Dev/mark-marley-Brainflix"
+        >
           <div className="portfolio-item-two__img" />
         </a>
-        <h2 className="portfolio-item-two__title"> BrainFlix</h2>
-        <p className="portfolio-item-two__text">
-          BrainFlix is a mock youtube website. Built with dummy data in a server
-          with JSON data. I have then used Axios calls to select and switch
-          videos. You can also add new videos with a axios post form.
-        </p>
+        <div className="portfolio-item-two_text-ctn">
+          <h2 className="portfolio-item-two__title"> BrainFlix</h2>
+          <p className="portfolio-item-two__text">
+            BrainFlix is a mock youtube website. Built with dummy data in a
+            server with JSON data. I have then used Axios calls to select and
+            switch videos. You can also add new videos with a axios post form.
+          </p>
+        </div>
         <div className="portfolio-logo_ctn"> </div>
       </div>
       <div className="portfolio-item-three">
-        <a href="http://property--analyser.herokuapp.com/">
+        <a href="">
           <div className="portfolio-item-three__img" />
         </a>
         <h2 className="portfolio-item-three__title"> Expenses Tracker</h2>
